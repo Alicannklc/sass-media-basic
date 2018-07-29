@@ -29,7 +29,7 @@ output Css
 
 Use
 ```scss
-  @include media('>=Key')
+  @include media('>=Key or px')
 ```
 
 Key         | Value
