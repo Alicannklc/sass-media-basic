@@ -1,0 +1,13 @@
+.row {
+  background: linear-gradient(to right, #e62f2f 0, #ff5d3d 100%);
+  width: 100%;
+  height: 60px;
+  position: relative;
+  transition: all .2s ease-out;
+  z-index: 8; }
+  @media (min-width: 768px) {
+    .row {
+      margin: 0px;
+      color: wheat; } }
+
+/*# sourceMappingURL=main.css.map */
