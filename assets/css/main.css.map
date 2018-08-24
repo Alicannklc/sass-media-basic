@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,IAAK;EACL,UAAU,EAAE,kDAAgD;EAC1D,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,QAAQ,EAAE,QAAQ;EAClB,UAAU,EAAE,gBAAgB;EAC5B,OAAO,EAAE,CAAC;ECkiBR,yBAAyD;IDxiB7D,IAAK;MAQD,MAAM,EAAE,GAAG;MACX,KAAK,EAAE,KAAK",
-"sources": ["../scss/layout/header.scss","../scss/vendor/_include-media.scss"],
-"names": [],
-"file": "main.css"
-}
