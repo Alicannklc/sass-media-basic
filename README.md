@@ -1,3 +1,15 @@
+
+Key         | Value
+----------- | -----------
+xs-phone    |320px
+phone       | 480px
+tablet      | 768px
+tablet-md   | 1024px
+widescreen  | 1200px
+widescreen-x| 1440px
+widescreen-xl| 1920px
+
+
 Basic
 ```scss
   .row {
@@ -32,12 +44,5 @@ Use
   @include media('>=Key or px')
 ```
 
-Key         | Value
------------ | -----------
-xs-phone    |320px
-phone       | 480px
-tablet      | 768px
-tablet-md   | 1024px
-widescreen  | 1200px
 
 [include-media](https://include-media.com/)
