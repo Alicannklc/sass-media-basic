@@ -5,9 +5,37 @@
   position: relative;
   transition: all .2s ease-out;
   z-index: 8; }
+  @media (min-width: 320px) {
+    .row {
+      margin: 0px;
+      color: black; } }
+  @media (min-width: 414px) {
+    .row {
+      margin: 0px;
+      color: yellow; } }
   @media (min-width: 768px) {
     .row {
       margin: 0px;
-      color: wheat; } }
+      color: yellow; } }
+  @media (min-width: 992px) {
+    .row {
+      margin: 0px;
+      color: yellow; } }
+  @media (min-width: 1024px) {
+    .row {
+      margin: 0px;
+      color: yellow; } }
+  @media (min-width: 1200px) {
+    .row {
+      margin: 0px;
+      color: yellow; } }
+  @media (min-width: 1440px) {
+    .row {
+      margin: 0px;
+      color: yellow; } }
+  @media (min-width: 1920px) {
+    .row {
+      margin: 0px;
+      color: yellow; } }
 
 /*# sourceMappingURL=main.css.map */
