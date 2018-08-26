@@ -14,7 +14,7 @@ widescreen-xl| 1920px
 Min Width
 
 ```scss
->=
+// changing >=
   .row {
   width: 100%;
   height: 60px;
