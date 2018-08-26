@@ -10,6 +10,11 @@ widescreen-x| 1440px
 widescreen-xl| 1920px
 
 
+Min Width
+>=
+Max width
+<=
+
 Basic
 ```scss
   .row {
@@ -18,10 +23,17 @@ Basic
   position: relative;
   transition: all .2s ease-out;
   z-index: 8;
+  // min-width
   @include media('>=Key') {
     margin: 0px;
     color: wheat;
   }
+  // max-width
+    @include media('<=Key') {
+    margin: 0px;
+    color: wheat;
+  }
+  
 }
 ```
 output Css
