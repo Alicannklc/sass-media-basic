@@ -1,4 +1,5 @@
 
+
 Key         | Value
 ----------- | -----------
 xs-phone    |320px
@@ -11,12 +12,9 @@ widescreen-xl| 1920px
 
 
 Min Width
->=
-Max width
-<=
 
-Basic
 ```scss
+>=
   .row {
   width: 100%;
   height: 60px;
@@ -28,14 +26,9 @@ Basic
     margin: 0px;
     color: wheat;
   }
-  // max-width
-    @include media('<=Key') {
-    margin: 0px;
-    color: wheat;
-  }
-  
 }
 ```
+
 output Css
 ```css
 .row {
@@ -50,9 +43,40 @@ output Css
       color: wheat; }
        }
 ```
-
+Max Width
+```scss
+// changing <=
+  .row {
+  width: 100%;
+  height: 60px;
+  position: relative;
+  transition: all .2s ease-out;
+  z-index: 8;
+  // min-width
+  @include media('<=Key') {
+    margin: 0px;
+    color: wheat;
+  }
+}
+```
+output Css
+```css
+.row {
+  width: 100%;
+  height: 60px;
+  position: relative;
+  transition: all .2s ease-out;
+  z-index: 8; }
+  @media (max-width: key) {
+    .row {
+      margin: 0px;
+      color: wheat; }
+       }
+```
 Use
 ```scss
+// Min >=
+// Max <=
   @include media('>=Key or px')
 ```
 
