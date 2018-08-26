@@ -52,7 +52,7 @@ Max Width
   position: relative;
   transition: all .2s ease-out;
   z-index: 8;
-  // min-width
+  // max-width
   @include media('<=Key') {
     margin: 0px;
     color: wheat;
