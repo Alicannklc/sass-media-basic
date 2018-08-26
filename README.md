@@ -14,14 +14,13 @@ widescreen-xl| 1920px
 Min Width
 
 ```scss
-// changing >=
+ // min-width >=
   .row {
   width: 100%;
   height: 60px;
   position: relative;
   transition: all .2s ease-out;
   z-index: 8;
-  // min-width
   @include media('>=Key') {
     margin: 0px;
     color: wheat;
@@ -45,14 +44,13 @@ output Css
 ```
 Max Width
 ```scss
-// changing <=
+// max-width <=
   .row {
   width: 100%;
   height: 60px;
   position: relative;
   transition: all .2s ease-out;
   z-index: 8;
-  // max-width
   @include media('<=Key') {
     margin: 0px;
     color: wheat;
